@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    background-color: beige;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+}
+.main{
+    background-color: beige;
+    width: 100%;
+    height: 100%;
+}
+.menu-wrapper{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    padding: 1rem 5rem 1rem 10rem;
+    background-color: beige;
+    z-index: 10;
+}
+.menu1-wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 6;
+    color: gray;
+    background-color: beige;
+}
+.first-menu{
+    height: 80px;
+    width: 0 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 7;
+}
+.list-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+}
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4rem;
+}
+.auth{
+    width: fit-content;
+    display: flex;
+}
+.auth-btn{
+    padding: 14px 30px;
+    border: none;
+    border-radius: 20px;
+    color: beige;
+    background-color: lightgreen;
+}
+.icon2{
+    display: none;
+}
+.icon3{
+    display: none;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.content1{
+    display: flex;
+    width: 100%;
+    height: 650px;
+    justify-content: space-between;
+    background-color: beige;
+}
+.content1-left{
+    width: 50%;
+    padding: 10rem 7rem 5rem 10rem;
+}
+.content1-word1{
+    font-size: 50px;
+    font-weight: 400;
+    color: darkgray;
+    padding-bottom: 2rem;
+}
+.content1-word2{
+    font-size: 20px;
+    font-weight: 300;
+    color: grey;
+    padding-bottom: 2rem;
+}
+.auth-btn{
+    padding: 14px 30px;
+    border: none;
+    border-radius: 20px;
+    color: beige;
+    background-color: lightgreen;
+}
+.content1-right{
+    width: 50%;
+    background-image: url(https://easybank.thedevgeek.repl.co/images/bg-intro-desktop.svg);
+    background-position-x: -60px;
+    background-position-y: -255px;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+.mockup{
+    position: relative;
+    width: 100%;
+    top: -140px;
+    left: 150px;
+}
+.content2{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-color: beige;
+    flex-direction: column;
+    padding: 5rem 8rem 3rem 10rem;
+}
+.content2-word1{
+    font-size: 40px;
+    font-weight: 400;
+    color: darkgray;
+    padding-bottom: 1rem;
+}
+.content2-word2{
+    font-size: 20px;
+    font-weight: 400;
+    color: darkgray;
+    padding-bottom: 4rem;
+    padding-right: 30rem;
+}
+.content2-choose{
+    display: flex;
+    justify-content: space-between;
+}
+.choose{
+    padding-right: 42px;
+    display: flex;
+    flex-direction: column;
+}
