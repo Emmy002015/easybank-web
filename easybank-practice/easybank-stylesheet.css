@@ -5,14 +5,14 @@
     font-family:sans-serif;
 }
 body{
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: 100%;
     justify-content: center;
     align-content: center;
 }
 .main{
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: 100%;
 }
@@ -22,7 +22,7 @@ body{
     height: 80px;
     align-items: center;
     padding: 1rem 5rem 1rem 10rem;
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     z-index: 10;
 }
 .menu1-wrapper{
@@ -37,9 +37,10 @@ body{
     justify-content: space-between;
     z-index: 6;
     color: gray;
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
 }
 .first-menu{
+    margin-left: 50px;;
     height: 80px;
     width: 0 6rem;
     display: flex;
@@ -67,8 +68,8 @@ ul{
     padding: 14px 30px;
     border: none;
     border-radius: 20px;
-    color: beige;
-    background-color: lightgreen;
+    color: rgb(240, 240, 240);
+    background-color: rgb(43, 183, 218);
 }
 .icon2{
     display: none;
@@ -86,7 +87,7 @@ ul{
     width: 100%;
     height: 650px;
     justify-content: space-between;
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
 }
 .content1-left{
     width: 50%;
@@ -108,8 +109,8 @@ ul{
     padding: 14px 30px;
     border: none;
     border-radius: 20px;
-    color: beige;
-    background-color: lightgreen;
+    color: rgb(240, 240, 240);
+    background-color: rgb(43, 183, 218);
 }
 .content1-right{
     width: 50%;
@@ -129,20 +130,20 @@ ul{
     display: flex;
     width: 100%;
     height: 700px;
-    background-color: beige;
+    background-color: rgb(243, 244, 246);
     flex-direction: column;
     padding: 5rem 8rem 3rem 10rem;
 }
 .content2-word1{
     font-size: 40px;
     font-weight: 400;
-    color: darkgray;
+    color: rgb(45, 49, 77);
     padding-bottom: 1rem;
 }
 .content2-word2{
     font-size: 20px;
     font-weight: 400;
-    color: darkgray;
+    color: rgb(150, 152, 166);
     padding-bottom: 4rem;
     padding-right: 30rem;
 }
@@ -154,4 +155,19 @@ ul{
     padding-right: 42px;
     display: flex;
     flex-direction: column;
+}
+.choose-img{
+    padding-bottom: 3rem;
+}
+.choose-name{
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(45, 49, 77);
+    padding-bottom: 2rem;
+}
+.choose-word{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(150, 152, 166);
+    line-height: 30px;
 }
