@@ -59,6 +59,7 @@ ul{
     display: flex;
     justify-content: space-between;
     padding-right: 4rem;
+    cursor: pointer;
 }
 .auth{
     width: fit-content;
@@ -70,6 +71,7 @@ ul{
     border-radius: 20px;
     color: rgb(240, 240, 240);
     background-color: rgb(43, 183, 218);
+    cursor: pointer;
 }
 .icon2{
     display: none;
